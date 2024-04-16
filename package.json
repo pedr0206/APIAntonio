@@ -1,0 +1,28 @@
+{
+  "name": "apiantonio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pedr0206/APIAntonio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pedr0206/APIAntonio/issues"
+  },
+  "homepage": "https://github.com/pedr0206/APIAntonio#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cross-env": "^7.0.3",
+    "dotenv-flow": "^4.1.0",
+    "express": "^4.19.2",
+    "mongodb": "^6.5.0",
+    "mongoose": "^8.3.1"
+  }
+}
